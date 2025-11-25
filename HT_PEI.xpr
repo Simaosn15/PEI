@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <meta>
+        <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options/>
+    </meta>
+    <projectTree name="HT_PEI.xpr">
+        <folder path="."/>
+        <file name="Hospitais.xml"/>
+        <file name="../../../AppData/Local/Temp/e0f82232-ba77-4a51-9d4a-c28152f049f9_dados.zip.9f9/dados/Hospitais.xsd"/>
+    </projectTree>
+</project>
