@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Hospitais>
+    <Hospital institutionId="98">
+        <HospitalName>Hospital Pulido Valente (Centro Hospitalar de Lisboa Norte, EPE)</HospitalName>
+        <Address>Alameda das Linhas de Torres, 117</Address>
+        <City>Lisboa</City>
+        <Region>Oeste e Vale do Tejo</Region>
+        <PostalCode>1769-001</PostalCode>
+        <Phone>+351 217 548 000</Phone>
+        <Email>administracao@chln.min-saude.pt</Email>
+        <Latitude>38.765467</Latitude>
+        <Longitude>-9.157316</Longitude>
+    </Hospital>
+</Hospitais>
