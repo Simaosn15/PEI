@@ -1,0 +1,41 @@
+Especialidade cirúrgica
+
+Cirurgia Geral
+Cirurgia Maxilo Facial
+Cirurgia Pediátrica
+Cirurgia Plástica e Reconstrutiva
+Cirurgia Vascular
+Dermatologia
+Ginecologia
+Oftalmologia
+Ortopedia
+Otorrinolaringologia
+Urologia
+Anestesiologia
+Cirurgia Cardiotorácica
+Estomatologia
+Nefrologia
+Neurocirurgia
+Obstetrícia
+Senologia
+Unidade Tratamento Cirúrgico da Obesidade
+Cirurgia Cabeça e Pescoço
+Radioterapia
+Transplante Medula Óssea
+Radiodiagnóstico
+Angiologia e Cirurgia Vascular
+Cardiologia Geral
+Dermato-Venereologia
+Neuropatologia
+Cirurgia Digestiva Baixa (cólon e recto)
+Gastroenterologia
+Transplante Hepático
+Neuroradiologia
+Pneumologia
+Pediatria
+Reumatologia
+Ginecologia - Obstetrícia
+Dor
+Cirurgia Torácica
+Unidade de Queimados
+Bloco
