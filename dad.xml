@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UrgencyReport xmlns="http://example.org/healthtime/urgency"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="http://example.org/healthtime/urgency UrgencyReport.xsd"
+               version="1.0">
+
+  <!-- Cabeçalho -->
+  <Header>
+    <HospitalID>HOSP1234</HospitalID>
+    <HospitalName>Hospital São Miguel</HospitalName>
+    <Timestamp>2025-11-25T09:15:00Z</Timestamp>
+    <Region>Norte</Region>
+    <Contact>
+      <Phone>+351-22-123-4567</Phone>
+      <Email>info@hospitalsm.pt</Email>
+    </Contact>
+  </Header>
+
+  <!-- Dados da urgência -->
+  <UrgencyData>
+    <!-- Tipologia: ex: geral, pediátrica, obstétrica, etc. -->
+    <Typology>pediátrica</Typology>
+
+    <!-- Morada -->
+    <Address>
+      <Street>Av. da Saúde, 100</Street>
+      <City>Porto</City>
+      <PostalCode>4000-000</PostalCode>
+      <Country>Portugal</Country>
+    </Address>
+
+    <!-- Estado: Aberta | Fechada -->
+    <Status>Aberta</Status>
+
+    <!-- Horário do registo (timestamp da submissão) -->
+    <SubmissionTime>2025-11-25T09:15:00Z</SubmissionTime>
+
+    <!-- Utentes em espera por categoria de triagem -->
+    <WaitingPatients total="27">
+      <Category name="nao_urgente">8</Category>
+      <Category name="pouco_urgente">6</Category>
+      <Category name="urgente">9</Category>
+      <Category name="muito_urgente">4</Category>
+    </WaitingPatients>
+
+    <!-- Utentes em observação por categoria de triagem -->
+    <ObservationPatients total="12">
+      <Category name="nao_urgente">2</Category>
+      <Category name="pouco_urgente">3</Category>
+      <Category name="urgente">5</Category>
+      <Category name="muito_urgente">2</Category>
+    </ObservationPatients>
+
+    <!-- Informação opcional: tempo médio de triagem (em minutos) por categoria -->
+    <AverageTriageTime>
+      <Category name="nao_urgente">45</Category>
+      <Category name="pouco_urgente">30</Category>
+      <Category name="urgente">20</Category>
+      <Category name="muito_urgente">10</Category>
+    </AverageTriageTime>
+
+  </UrgencyData>
+
+  <!-- Metadados / notas (opcional) -->
+  <Meta>
+    <SubmittedBy>api-hospital-sistema-v1</SubmittedBy>
+    <Notes>Dados gerados automaticamente a partir do sistema interno.</Notes>
+  </Meta>
+
+</UrgencyReport>
